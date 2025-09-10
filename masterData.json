@@ -1,0 +1,237 @@
+{
+  "personal_info": {
+    "name": "Muhammed Said Altan",
+    "location": "Ottawa, ON, Canada",
+    "email": "altansaid13@outlook.com",
+    "portfolio": "https://saidaltan.com",
+    "github": "https://github.com/altansaid",
+    "linkedin": "https://linkedin.com/in/saidaltan"
+  },
+
+  "education": [
+    {
+      "degree": "Diploma in Web Development and Internet Applications",
+      "school": "Algonquin College",
+      "location": "Ottawa, Canada",
+      "graduation_date": "2025-04"
+    }
+  ],
+
+  "work_experience": [
+    {
+      "title": "Web Developer Intern",
+      "company": "Solace",
+      "location": "Ottawa, Canada",
+      "start_date": "2024-09",
+      "end_date": "2024-12",
+      "project_details": [
+        "Developed and deployed a reusable JavaScript/jQuery Table of Contents plugin integrated into enterprise knowledge bases, improving navigation speed and reducing bounce rate by 42%.",
+        "Improved SEO performance and accessibility by addressing Lighthouse audit findings, raising performance and accessibility scores to consistently exceed 90+ benchmarks.",
+        "Developed an internal employee engagement microsite using PHP, REST APIs, and Bootstrap, driving a 50% increase in participation and enabling modular content reuse across departments.",
+        "Resolved Node.js environment mismatch issues in CI/CD pipeline, reducing build and deployment failures by 80% and improving reliability.",
+        "Contributed to full-stack development by integrating RESTful services with frontend components, focusing on scalability, performance, and secure coding practices.",
+        "Collaborated with globally distributed teams in Agile sprints, participating in backlog grooming, peer code reviews, and CI/CD workflows, reinforcing best practices for maintainability and cross-functional delivery.",
+        "Created and improved UI/UX designs using Figma, Adobe Photoshop, and Illustrator, enhancing the visual identity of internal sites."
+      ],
+
+      "technologies": [
+        "WordPress",
+        "PHP",
+        "JavaScript",
+        "jQuery",
+        "Node.js",
+        "React",
+        "Gatsby",
+        "Bootstrap",
+        "SEO",
+        "Lighthouse",
+        "Agile",
+        "Jira",
+        "REST APIs",
+        "Figma",
+        "Adobe Photoshop",
+        "Adobe Illustrator"
+      ]
+    }
+  ],
+
+  "Leadership": [
+    {
+      "title": "Capstone Project Developer",
+      "company": "BodyBliss",
+      "location": "Ottawa, Canada",
+      "start_date": "2024-01",
+      "end_date": "2024-04",
+      "achievements": [
+        "Delivered a production-ready client website with custom design and responsive UI using Laravel and Livewire.",
+        "Collaborated with client to gather requirements, iterate on features, and deploy final solution."
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "CMS"]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "PLAB2 Practice Platform",
+      "link": "https://plab2practice.com",
+      "repository": "https://github.com/altansaid/plab2projectnew",
+      "description": "Real-time collaborative platform for medical exam preparation with role-based practice sessions.",
+      "project_details": [
+        "Built a real-time collaborative platform for PLAB 2 exam preparation, enabling Doctor, Patient, and Observer roles in live sessions.",
+        "Implemented session features including timed consultations, randomized clinical cases, and structured feedback workflows.",
+        "Developed secure user registration and authentication with JWT-based Spring Security.",
+        "Created role-based access control system ensuring protected endpoints and controlled access for doctors, patients, and observers.",
+        "Integrated feedback dashboards where users can track history of received and given feedback.",
+        "Designed and deployed modular Spring Boot RESTful microservices with 25+ API endpoints.",
+        "Implemented WebSockets (STOMP) for real-time synchronization across distributed users.",
+        "Applied password encryption with BCrypt and CORS configuration for secure frontend integration.",
+        "Optimized for scalability with PostgreSQL persistence, Flyway migrations, and Dockerized deployments.",
+        "Delivered CI/CD-ready configuration, enabling fast deployments and reliable cloud delivery.",
+        "Deployed backend on Render and frontend on Vercel, connected via custom domain plab2practice.com.",
+        "Developed responsive, accessible frontend with React, TypeScript, Material-UI, and Tailwind CSS.",
+        "Embedded WCAG-compliant accessibility patterns ensuring compatibility with diverse devices.",
+        "Implemented personal dashboard for users to manage practice sessions and feedback history.",
+        "Built admin functionality for case management and session oversight.",
+        "Enabled scalable support for 500+ active users in cloud-ready environments.",
+        "Collaborated in Agile workflows to deliver features iteratively and ensure maintainability.",
+        "Enhanced reliability with Docker Compose for local database setup and consistent dev/test environments.",
+        "Established structured session lifecycle: create, join via code, start, end, and feedback collection.",
+        "Documented clear API endpoints for authentication, session management, and feedback submission."
+      ],
+
+      "technologies": [
+        "Spring Boot",
+        "Java",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Supabase",
+        "WebSocket",
+        "Docker",
+        "Render",
+        "Vercel"
+      ]
+    },
+    {
+      "name": "Interview Coach AI",
+      "link": "https://interviewcoach-ai.vercel.app/",
+      "repository": "https://github.com/altansaid/interviewcoach-ai",
+      "description": "MERN stack app generating tailored interview questions with pinning and explanation features.",
+      "project_details": [
+        "Built a cloud-native full-stack platform for AI-powered interview preparation using React 19 + TailwindCSS frontend and Node.js/Express + MongoDB backend.",
+        "Integrated Google’s Gemini AI API to generate personalized technical and behavioral interview questions with detailed explanations.",
+        "Implemented secure authentication with JWT, Google OAuth, and bcrypt, including password reset workflows and compliance-ready data handling.",
+        "Developed modal-based Forgot Password flow entirely within the login/signup UI, enhancing user experience.",
+        "Created a modern, responsive, mobile-friendly interface with smooth animations powered by Framer Motion and styled with TailwindCSS.",
+        "Added note-taking, question pinning, and session management features to allow candidates to organize preparation effectively.",
+        "Designed centralized dashboard for managing multiple interview sessions and viewing preparation progress.",
+        "Enabled profile customization with image upload via Multer and secured file handling.",
+        "Implemented RESTful API endpoints for authentication, session management, AI question generation, and question management.",
+        "Built backend with structured MVC architecture (controllers, models, routes, middlewares) for maintainability.",
+        "Added Nodemailer-based email integration for password reset and user communication.",
+        "Enhanced reliability and cloud readiness by adding unit and integration testing, CI/CD pipelines, and containerized configs.",
+        "Configured CORS policies and JWT middleware for secure cross-origin API usage.",
+        "Optimized application performance with Vite build tool and React Hot Toast for notifications.",
+        "Ensured accessibility and consistency across devices with responsive UI and WCAG-aligned patterns."
+      ],
+
+      "technologies": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js",
+        "MERN",
+        "JWT",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "name": "GeekGoose Blog",
+      "link": "https://github.com/altansaid/geekgoose",
+      "repository": "https://github.com/altansaid/geekgoose",
+      "description": "Blog platform built with Laravel Livewire, later repurposed for food blogging.",
+      "achievements": [
+        "Implemented authentication, likes, comments, and admin panel.",
+        "Deployed with SEO optimization and analytics tracking."
+      ],
+      "technologies": ["Laravel", "Livewire", "PHP", "MySQL", "Bootstrap"]
+    },
+    {
+      "name": "Restaurant Review Management System",
+      "link": "https://github.com/altansaid/restaurantreviewmanagementsystem",
+      "repository": "https://github.com/altansaid/restaurantreviewmanagementsystem",
+      "description": "Full-stack review platform with .NET backend and React frontend.",
+      "achievements": [
+        "Built with ASP.NET Core MVC + React, ensuring fast load performance with SSR.",
+        "Developed modular backend in C# with validation, error handling, and controller routing.",
+        "Implemented dynamic forms in React Hooks and Bootstrap 5."
+      ],
+      "technologies": [
+        "C#",
+        ".NET",
+        "ASP.NET Core",
+        "React",
+        "Bootstrap",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Student Registration System",
+      "link": "https://github.com/altansaid/StudentRegistration",
+      "repository": "https://github.com/altansaid/StudentRegistration",
+      "description": "ASP.NET Razor Pages project with validation and average grade calculation.",
+      "achievements": [
+        "Implemented field validation and error handling for user-friendly registration.",
+        "Created sorting and statistics (average grade, course count) in views."
+      ],
+      "technologies": ["C#", ".NET", "ASP.NET Razor Pages"]
+    }
+  ],
+
+  "skills": {
+    "languages": [
+      "JavaScript",
+      "TypeScript",
+      "Java",
+      "C#",
+      "PHP",
+      "SQL",
+      "HTML5",
+      "CSS3"
+    ],
+    "frontend": [
+      "React",
+      "Redux",
+      "TailwindCSS",
+      "Material UI",
+      "Bootstrap",
+      "Responsive Design",
+      "WCAG"
+    ],
+    "backend": [
+      "Spring Boot",
+      "Node.js",
+      "ASP.NET Core",
+      "Laravel",
+      "Livewire",
+      "REST APIs",
+      "JWT/OAuth"
+    ],
+    "databases": ["PostgreSQL", "MySQL", "MongoDB"],
+    "tools": ["Docker", "Git", "Linux CLI", "NVM", "Homebrew"],
+    "cloud": [
+      "Render",
+      "Vercel",
+      "Netlify",
+      "Google Cloud Platform",
+      "Supabase"
+    ],
+    "practices": [
+      "Agile/Scrum",
+      "CI/CD",
+      "Unit Testing (Jest, JUnit)",
+      "Clean Architecture",
+      "Code Reviews"
+    ]
+  }
+}
