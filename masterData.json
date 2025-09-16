@@ -82,7 +82,7 @@
         "Developed secure user registration and authentication with JWT-based Spring Security.",
         "Created role-based access control system ensuring protected endpoints and controlled access for doctors, patients, and observers.",
         "Integrated feedback dashboards where users can track history of received and given feedback.",
-        "Designed and deployed modular Spring Boot RESTful microservices with 25+ API endpoints.",
+        "Designed and deployed modular Spring Boot RESTful microservices with 60+ API endpoints.",
         "Implemented WebSockets (STOMP) for real-time synchronization across distributed users.",
         "Applied password encryption with BCrypt and CORS configuration for secure frontend integration.",
         "Optimized for scalability with PostgreSQL persistence, Flyway migrations, and Dockerized deployments.",
