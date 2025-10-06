@@ -127,6 +127,35 @@
       ]
     },
     {
+  "name": "Resume Tailoring Automation Workflow",
+  "summary_short": "Automated multi-stage resume generation pipeline built with n8n, integrating Slack, OpenAI, and GitHub through event-driven orchestration.",
+  "repository": "https://github.com/altansaid/resume-updates",
+  "description": "A fully autonomous n8n system that listens for job descriptions on Slack, retrieves structured resume data and LaTeX templates, enriches them via OpenAI models, validates and transforms the output, then commits and version-controls results in GitHub. The system operates as a deterministic data pipeline where each node represents a discrete processing stage, ensuring consistent, traceable, and reproducible outcomes.",
+  "achievements": [
+    "Architected a modular workflow in n8n composed of sequentially linked nodes performing trigger, data retrieval, transformation, AI inference, validation, and persistence operations.",
+    "Established a Slack-triggered event source that captures job descriptions in real time and serializes them as primary input for downstream resume tailoring logic.",
+    "Configured HTTP Request nodes to dynamically fetch the masterData.json and LaTeX base template, ensuring external data synchronization with versioned sources.",
+    "Orchestrated OpenAI model nodes to merge contextual job requirements with structured candidate data, generating refined X–Y–Z quantified achievement statements within strict LaTeX boundaries.",
+    "Developed transformation layers using Code nodes (JavaScript) to handle filename generation, metadata normalization, base64 encoding, and JSON serialization for subsequent REST interactions.",
+    "Implemented multi-level LaTeX validation logic verifying document integrity — including tag pairing, structure balance, encoding, and symbol escaping — before storage operations.",
+    "Integrated authenticated PUT operations through the GitHub REST API to perform atomic commits, guaranteeing version traceability and continuous delivery consistency.",
+    "Designed fault-tolerant execution by introducing conditional fallback mechanisms that revert to verified templates upon invalid model outputs, maintaining zero-failure reliability.",
+    "Optimized workflow concurrency and state propagation to achieve a fully automated, reproducible pipeline where a single Slack message can produce a validated, version-controlled resume artifact."
+  ],
+  "technologies": [
+    "n8n Workflow Engine",
+    "Slack Event Triggers",
+    "OpenAI GPT Models",
+    "GitHub REST API",
+    "HTTP Request Nodes",
+    "JavaScript Code Execution",
+    "Base64 Encoding & Serialization",
+    "LaTeX Document Validation",
+    "Automated Commit Operations",
+    "Fault-tolerant Pipeline Design"
+  ]
+},
+    {
       "name": "GeekGoose Blog",
       "summary_short": "Laravel Livewire blog with admin panel, SEO, and analytics tracking.",
       "repository": "https://github.com/altansaid/geekgoose",
