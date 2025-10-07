@@ -70,7 +70,7 @@
   "Deployed scalable backend infrastructure using Firebase Functions and containerized Go services on Google Cloud, achieving 99.9% uptime with automated scaling.",
   "Integrated GA4, Facebook Pixel, TikTok Pixel, and Microsoft Clarity to track 8+ key conversion events and enable A/B testing, increasing trial-to-subscription conversion rate by 25%.",
   "Implemented secure authentication, CORS whitelisting, and rate-limiting middleware across APIs, ensuring data protection and PCI-compliant Stripe workflows.",
-  "Automated weekly email marketing pipeline with SendGrid for product deal delivery, achieving a 45% open rate and improving user re-engagement metrics."
+  "Automated weekly email marketing pipeline for product deal delivery, achieving a 45% open rate and improving user re-engagement metrics."
 ],
   "technologies": [
     "React",
