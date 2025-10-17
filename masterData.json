@@ -63,12 +63,10 @@
  "achievements": [
   "Architected and developed a full-stack SaaS platform automating online arbitrage sourcing, enabling users to discover profitable products 10–20 hours faster per week through real-time data analysis across multiple retail marketplaces.",
   "Built and deployed high-performance Go microservices for concurrent data scraping (500+ products/hour per marketplace) with rate limiting, retry logic, and anti-bot detection to ensure reliability at scale.",
-  "Integrated Amazon SP-API, Keepa, and Stripe APIs for real-time pricing, sales rank, and FBA fee analysis, supporting 95%+ accuracy in profit and ROI calculations.",
   "Developed an AI-driven profit analysis engine using OpenAI GPT-3.5 to normalize pack quantities and detect inconsistencies across marketplaces, reducing manual validation time by 80%.",
   "Engineered a responsive React frontend with Redux-Saga, dynamic filtering (20+ parameters), profit dashboards, CSV export, and <350ms debounced queries for optimal performance.",
   "Optimized Firestore queries with indexed pagination and lazy loading, improving data retrieval speed by 70% and enhancing scalability for datasets exceeding 10,000 products.",
   "Deployed scalable backend infrastructure using Firebase Functions and containerized Go services on Google Cloud, achieving 99.9% uptime with automated scaling.",
-  "Integrated GA4, Facebook Pixel, TikTok Pixel, and Microsoft Clarity to track 8+ key conversion events and enable A/B testing, increasing trial-to-subscription conversion rate by 25%.",
   "Implemented secure authentication, CORS whitelisting, and rate-limiting middleware across APIs, ensuring data protection and PCI-compliant Stripe workflows.",
   "Automated weekly email marketing pipeline for product deal delivery, achieving a 45% open rate and improving user re-engagement metrics."
 ],
