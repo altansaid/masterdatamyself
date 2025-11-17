@@ -97,21 +97,7 @@
   "link": "https://arbitragecyclops.com/"
 },
 
-    {
-      "type": "capstone",
-      "title": "Capstone Project Developer",
-      "company": "BodyBliss",
-      "location": "Ottawa, Canada",
-      "start_date": "2024-01",
-      "end_date": "2024-04",
-      "achievements": [
-        "Delivered a production-ready client website with custom responsive UI using Laravel and Livewire.",
-        "Collaborated directly with client to gather requirements, iterate on designs, and deploy final solution with CMS features."
-      ],
-      "technologies": ["Laravel", "Livewire", "HTML", "CSS", "JavaScript", "CMS"]
-    }
-  ],
-
+    
   "projects": [
     {
       "name": "PLAB2 Practice Platform",
@@ -170,83 +156,7 @@
         "Framer Motion"
       ]
     },
-    {
-  "name": "Resume Tailoring Automation Workflow",
-  "summary_short": "Automated multi-stage resume generation pipeline built with n8n, integrating Slack, OpenAI, and GitHub through event-driven orchestration.",
-  "repository": "https://github.com/altansaid/resume-updates",
-  "description": "A fully autonomous n8n system that listens for job descriptions on Slack, retrieves structured resume data and LaTeX templates, enriches them via OpenAI models, validates and transforms the output, then commits and version-controls results in GitHub. The system operates as a deterministic data pipeline where each node represents a discrete processing stage, ensuring consistent, traceable, and reproducible outcomes.",
-  "achievements": [
-    "Architected a modular workflow in n8n composed of sequentially linked nodes performing trigger, data retrieval, transformation, AI inference, validation, and persistence operations.",
-    "Established a Slack-triggered event source that captures job descriptions in real time and serializes them as primary input for downstream resume tailoring logic.",
-    "Configured HTTP Request nodes to dynamically fetch the masterData.json and LaTeX base template, ensuring external data synchronization with versioned sources.",
-    "Orchestrated OpenAI model nodes to merge contextual job requirements with structured candidate data, generating refined X–Y–Z quantified achievement statements within strict LaTeX boundaries.",
-    "Developed transformation layers using Code nodes (JavaScript) to handle filename generation, metadata normalization, base64 encoding, and JSON serialization for subsequent REST interactions.",
-    "Implemented multi-level LaTeX validation logic verifying document integrity — including tag pairing, structure balance, encoding, and symbol escaping — before storage operations.",
-    "Integrated authenticated PUT operations through the GitHub REST API to perform atomic commits, guaranteeing version traceability and continuous delivery consistency.",
-    "Designed fault-tolerant execution by introducing conditional fallback mechanisms that revert to verified templates upon invalid model outputs, maintaining zero-failure reliability.",
-    "Optimized workflow concurrency and state propagation to achieve a fully automated, reproducible pipeline where a single Slack message can produce a validated, version-controlled resume artifact."
-  ],
-  "technologies": [
-    "n8n Workflow Engine",
-    "Slack Event Triggers",
-    "OpenAI GPT Models",
-    "GitHub REST API",
-    "HTTP Request Nodes",
-    "JavaScript Code Execution",
-    "Base64 Encoding & Serialization",
-    "LaTeX Document Validation",
-    "Automated Commit Operations",
-    "Fault-tolerant Pipeline Design"
-  ]
-},
-    {
-      "name": "GeekGoose Blog",
-      "summary_short": "Laravel Livewire blog with admin panel, SEO, and analytics tracking.",
-      "repository": "https://github.com/altansaid/geekgoose",
-      "description": "Full-featured blog platform later repurposed for food blogging.",
-      "achievements": [
-        "Implemented authentication, likes, comments, and admin panel.",
-        "Deployed with SEO optimization and analytics tracking."
-      ],
-      "technologies": ["Laravel", "Livewire", "PHP", "MySQL", "Bootstrap"]
-    },
-    {
-      "name": "Restaurant Review Management System",
-      "summary_short": "Full-stack review app built with ASP.NET Core MVC backend and React frontend.",
-      "repository": "https://github.com/altansaid/restaurantreviewmanagementsystem",
-      "description": "Full-stack review platform using .NET and React with validation and error handling.",
-      "achievements": [
-        "Developed modular backend in C# with MVC architecture, validation, and error handling.",
-        "Built React frontend with dynamic forms using Hooks and Bootstrap 5."
-      ],
-      "technologies": ["C#", ".NET", "ASP.NET Core", "React", "Bootstrap", "SQL"]
-    },
-    {
-      "name": "Student Registration System",
-      "summary_short": "ASP.NET Razor Pages project with validation and grade statistics.",
-      "repository": "https://github.com/altansaid/StudentRegistration",
-      "description": "ASP.NET Razor Pages app for student course registration with field validation.",
-      "achievements": [
-        "Implemented form validation and user-friendly error handling.",
-        "Added sorting and average grade calculations in the view."
-      ],
-      "technologies": ["C#", ".NET", "ASP.NET Razor Pages"]
-    }
-  ],
 
-  "certifications": [
-    {
-      "name": "Google Analytics 4 Certification",
-      "issuer": "Google",
-      "date": "2024-07"
-    }
-  ],
-
-  "achievements_summary": [
-    "Developed PLAB2Practice.com serving 500+ active users worldwide.",
-    "Improved SEO and accessibility scores to 90+ during Solace internship.",
-    "Reduced CI/CD build failures by 80% through Node.js environment optimization."
-  ],
 
   "technical_skills": {
     "languages": ["JavaScript", "TypeScript", "Java", "C#", "PHP", "SQL", "HTML5", "CSS3"],
