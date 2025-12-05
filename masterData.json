@@ -17,7 +17,7 @@
     }
   ],
 
-"experience": [
+  "experience": [
     {
       "type": "internship",
       "title": "Web Developer Intern",
@@ -26,8 +26,6 @@
       "start_date": "2024-09",
       "end_date": "2024-12",
       "description": "Worked within the Marketing organization's Web Team to enhance production web properties and internal tools. Engineered reusable components and custom WordPress plugin functionality using PHP and jQuery, including a hierarchical Table of Contents module that significantly improved navigation depth for long-form content (~42% improvement based on Hotjar and Google Analytics observations). Took end-to-end ownership of an internal HR microsite, designing the UX in Figma and building it from scratch in WordPress, resulting in ~50% YoY traffic growth and eliminating a planned third-party solution. Collaborated with cross-functional developer advocates to diagnose CI/CD deployment failures affecting developer-facing sites and root-caused a Node.js–Gatsby runtime incompatibility, restoring build stability after version upgrades. Also contributed to SEO and Lighthouse-based accessibility tuning to ensure consistently high performance scores across marketing domains."
-    }
-  ]
     },
     {
       "type": "experience",
