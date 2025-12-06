@@ -32,7 +32,7 @@
       "title": "Software Developer",
       "company": "Arbitrage Cyclops",
       "location": "Remote",
-      "start_date": "2023-06",
+      "start_date": "2025-07",
       "end_date": "present",
       "description": "Contributed as a long-term volunteer collaborator on Arbitrage Cyclops, a SaaS platform helping Amazon arbitrage sellers compare marketplace pricing (e.g., Amazon CA vs Amazon US) to identify profitable product gaps. Led UI redesign efforts to improve conversion and onboarding quality for Amazon API approval by rebuilding the landing page and feature messaging in React and Tailwind. Architected a scalable navigation and pagination model for datasets exceeding 10,000 scanned products, optimizing page transitions and reducing user friction across multi-page inventory views. Worked closely with backend engineers to ensure API contract consistency, responsive state management, and clean separation between data retrieval and presentation logic. Enhanced user insight surfaces by designing feature showcase sections and UX flows that increased discoverability of arbitrage automation features and seller workflows. Continued to provide ongoing improvements around scalability, front–back integration patterns, and experience polish in alignment with platform growth."
     }
