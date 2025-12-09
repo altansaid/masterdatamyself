@@ -41,7 +41,7 @@
   "projects": [
     {
       "name": "PLAB2 Practice Platform",
-      "summary_short": "Built a full-stack real-time PLAB2 practice app with React, Spring Boot, and WebSockets for 500+ users.",
+      "summary_short": "Built a full-stack real-time PLAB2 practice app with React, Spring Boot, and WebSockets for 500+ real time concurrent users.",
       "link": "https://plab2practice.com",
       "repository": "https://github.com/altansaid/plab2projectnew",
       "description": "Real-time collaborative platform for medical exam preparation with role-based sessions and feedback.",
