@@ -20,194 +20,213 @@
   "experience": [
     {
       "type": "internship",
-      "title": "Web Developer Intern",
+      "title": "Web Developer Intern (Web Marketing Team)",
       "company": "Solace",
       "location": "Ottawa, Canada",
       "start_date": "2024-09",
       "end_date": "2024-12",
-      "description": "Worked within the Marketing organization's Web Team to enhance production web properties and internal tools. Engineered reusable components and custom WordPress plugin functionality using PHP and jQuery, including a hierarchical Table of Contents module that significantly improved navigation depth for long-form content (~42% improvement based on Hotjar and Google Analytics observations). Took end-to-end ownership of an internal HR microsite, designing the UX in Figma and building it from scratch in WordPress, resulting in ~50% YoY traffic growth and eliminating a planned third-party solution. Collaborated with cross-functional developer advocates to diagnose CI/CD deployment failures affecting developer-facing sites and root-caused a Node.js–Gatsby runtime incompatibility, restoring build stability after version upgrades. Also contributed to SEO and Lighthouse-based accessibility tuning to ensure consistently high performance scores across marketing domains.",
+      "description": "Contributed as a Web Developer Intern on the Marketing Web Team, supporting multiple production marketing and developer-facing websites. Worked across WordPress and React/Gatsby (Node.js) properties, delivering frontend features, resolving production issues, and improving performance, SEO, and overall site quality through a ticket-driven Agile workflow.",
       "achievements": [
-        "Engineered reusable components and a custom hierarchical Table of Contents WordPress plugin using PHP and jQuery, improving deep navigation on long-form content by approximately 42% based on Hotjar and Google Analytics observations.",
-        "Took end-to-end ownership of an internal HR microsite, from UX design in Figma to production rollout in WordPress, driving roughly 50% year-over-year traffic growth and eliminating the need for a planned third-party solution.",
-        "Collaborated with cross-functional developer advocates to diagnose CI/CD deployment failures on Node.js–Gatsby sites, root-causing a runtime incompatibility after version upgrades and restoring stable, repeatable builds.",
-        "Improved SEO, performance, and accessibility scores across marketing properties by iterating with Lighthouse and applying WCAG-aligned patterns, helping ensure pages remained fast and user-friendly.",
-        "Enhanced internal authoring workflows by building structured navigation and content modules, making it easier for non-technical stakeholders to publish and maintain long-form technical and marketing content.",
-        "Partnered with marketing and HR stakeholders to translate high-level business goals into concrete web requirements, clarifying user journeys and content priorities before implementation.",
-        "Refined responsive layouts and typography for key marketing pages to ensure a consistent experience across desktop and mobile, aligning with brand guidelines and reducing layout issues reported by stakeholders.",
-        "Contributed to debugging and improving production WordPress instances, including plugin configuration, theme-level changes, and performance-focused adjustments such as script loading order and asset optimization.",
-        "Applied analytics insights from Hotjar and Google Analytics to prioritize fixes and enhancements, focusing engineering effort on navigation paths and content sections that were most critical to user engagement.",
-        "Collaborated in a remote-first, Agile environment with designers, marketers, and senior engineers, participating in stand-ups and async discussions to keep work visible and unblock cross-functional teammates."
+        "Improved and maintained large-scale WordPress marketing sites by building reusable UI components, fixing production issues, and implementing content and layout updates, resulting in more consistent user experiences across marketing pages.",
+        "Enhanced long-form content usability by redesigning and extending an existing navigation solution within WordPress, enabling clearer content structure and smoother in-page navigation for complex blog posts.",
+        "Designed and developed a seasonal internal WordPress experience from the ground up, translating a custom Figma design into a fully functional site using PHP and Advanced Custom Fields, delivering an interactive campaign used company-wide during the holiday period.",
+        "Contributed to stabilizing React/Gatsby (Node.js) sites by collaborating with web and software engineering teammates to diagnose and resolve build and deployment issues introduced after framework and runtime upgrades.",
+        "Supported ongoing SEO, performance, and accessibility initiatives by iterating on front-end implementations based on Lighthouse insights, helping ensure marketing pages remained fast, accessible, and aligned with best practices.",
+        "Operated within a Jira-based Agile workflow, collaborating daily with the web team and regularly with Marketing and Product Marketing stakeholders to translate business needs into technical deliverables."
       ],
       "stack": [
         "WordPress",
         "PHP",
+        "JavaScript",
         "jQuery",
+        "HTML",
+        "CSS",
+        "React",
+        "Gatsby",
+        "Node.js",
+        "Advanced Custom Fields (ACF)",
         "Figma",
         "Lighthouse",
         "Hotjar",
-        "Google Analytics"
+        "Google Analytics",
+        "Git",
+        "Jira"
       ],
       "tags": [
         "web-development",
+        "frontend",
         "marketing-sites",
-        "internal-tools",
-        "SEO",
-        "accessibility"
+        "wordpress",
+        "seo",
+        "performance",
+        "accessibility",
+        "agile"
       ]
     },
     {
       "type": "volunteer_contributor",
-      "title": "Software Developer",
+      "title": "Frontend Software Developer (Volunteer)",
       "company": "Arbitrage Cyclops",
       "location": "Remote",
       "start_date": "2025-07",
       "end_date": "present",
-      "description": "Contributed as a long-term volunteer collaborator on Arbitrage Cyclops, a SaaS platform helping Amazon arbitrage sellers compare marketplace pricing (e.g., Amazon CA vs Amazon US) to identify profitable product gaps. Led UI redesign efforts to improve conversion and onboarding quality for Amazon API approval by rebuilding the landing page and feature messaging in React and Tailwind. Architected a scalable navigation and pagination model for datasets exceeding 10,000 scanned products, optimizing page transitions and reducing user friction across multi-page inventory views. Worked closely with backend engineers to ensure API contract consistency, responsive state management, and clean separation between data retrieval and presentation logic. Enhanced user insight surfaces by designing feature showcase sections and UX flows that increased discoverability of arbitrage automation features and seller workflows. Continued to provide ongoing improvements around scalability, front–back integration patterns, and experience polish in alignment with platform growth.",
+      "description": "Contributed as a volunteer Frontend Software Developer on a B2B SaaS web application that helps Amazon sellers identify cross-marketplace arbitrage opportunities by comparing product pricing across regions. Worked closely with the product owner to improve the user interface, frontend architecture, and API integration quality across both marketing and data-heavy product pages.",
       "achievements": [
-        "Contributed to a data-heavy SaaS platform that helps Amazon arbitrage sellers compare marketplace pricing (e.g., Amazon CA vs Amazon US) to identify profitable product gaps and arbitrage opportunities.",
-        "Led UI redesign efforts for the landing experience using React and Tailwind CSS, clarifying the value proposition and feature messaging for arbitrage workflows to support better conversion and onboarding quality.",
-        "Rebuilt the core landing page structure and visual hierarchy to communicate complex pricing and marketplace comparisons more intuitively for sellers with different levels of technical and business experience.",
-        "Architected a scalable navigation and pagination model for datasets exceeding 10,000 scanned products, ensuring smooth transitions across multi-page inventory views and reducing friction for users exploring large result sets.",
-        "Worked closely with backend engineers to define and refine API contracts, keeping a clean separation between data retrieval and presentation logic in the React frontend.",
-        "Implemented frontend patterns that keep state management predictable and responsive as users filter, sort, and browse arbitrage opportunities across multiple marketplaces.",
-        "Designed UX flows and feature showcase sections that surface key arbitrage automation capabilities more prominently, helping sellers understand how to use the platform to make data-informed sourcing decisions.",
-        "Helped align the UI with the platform’s growth needs by iterating on scalability and performance considerations, such as how large batches of product data are fetched and rendered in the browser.",
-        "Contributed to maintaining visual and interaction consistency across the application by introducing reusable UI components and layout patterns that can be reused as new features are added.",
-        "Collaborated in an asynchronous, remote environment with the core maintainer and other contributors, providing implementation feedback, reviewing ideas, and incrementally improving the product as new use cases emerged."
+        "Improved the landing page experience by redesigning and implementing a complete React-based layout with clear hero messaging, calls to action, and responsive sections, resulting in a clearer value proposition for new users.",
+        "Built and refined frontend pages from end to end using React, TypeScript, and Tailwind CSS, translating product requirements into clean, user-friendly interfaces optimized for seller workflows.",
+        "Enhanced usability of data-heavy product browsing pages by implementing responsive navigation, filtering, and pagination patterns, enabling users to explore large volumes of scanned products more efficiently.",
+        "Optimized frontend API integration by aligning UI data needs with existing backend responses, simplifying request patterns and reducing frontend complexity when consuming REST APIs.",
+        "Improved overall UX and performance for large result sets by focusing on UI-level optimizations, predictable state management, and efficient rendering strategies in React.",
+        "Collaborated closely with the product owner to iterate on feature ideas, validate UI decisions, and adapt frontend implementations to evolving backend capabilities without direct backend ownership."
       ],
       "stack": [
         "React",
+        "TypeScript",
+        "JavaScript",
+        "Redux",
         "TailwindCSS",
-        "TypeScript (optional/partial)",
-        "REST APIs"
+        "REST APIs",
+        "HTML",
+        "CSS",
+        "Git"
       ],
       "tags": [
         "b2b-saas",
-        "analytics",
-        "e-commerce",
-        "arbitrage",
         "frontend",
-        "data-heavy-ui"
+        "e-commerce",
+        "data-heavy-ui",
+        "ux",
+        "volunteer"
       ]
     }
   ],
 
   "projects": [
     {
+      "type": "personal_project",
       "name": "PLAB2 Practice Platform",
-      "summary_short": "Built a full-stack real-time PLAB2 practice app with React, Spring Boot, and WebSockets for 500+ active users.",
+      "location": "Remote",
+      "start_date": "2024-01",
+      "end_date": "present",
       "link": "https://plab2practice.com",
       "repository": "https://github.com/altansaid/plab2projectnew",
-      "description": "Real-time collaborative platform for medical exam preparation with role-based sessions and feedback.",
+      "description": "Designed and built a real-time web platform that enables international medical graduates to practice for the UK PLAB 2 clinical exam through live, role-based consultation sessions. The platform addresses the lack of realistic, collaborative practice tools for a verbal, station-based medical exam by allowing users to simulate real exam conditions online.",
       "achievements": [
-        "Developed a real-time collaborative platform for PLAB 2 exam preparation with Doctor, Patient, and Observer roles, translating a complex medical training domain into an intuitive web experience.",
-        "Implemented session features such as timed consultations, randomized cases, and structured feedback workflows to simulate real exam conditions for medical professionals.",
-        "Built JWT-secured authentication and role-based access control with Spring Security, ensuring that users only access sessions and data appropriate to their role.",
-        "Designed modular Spring Boot RESTful microservices with more than 60 API endpoints to manage sessions, cases, user roles, and feedback data in a maintainable way.",
-        "Implemented WebSockets (STOMP) for real-time synchronization of session state across multiple connected users, keeping communication latency under approximately 200ms under typical load.",
-        "Optimized scalability and data integrity using PostgreSQL, Flyway migrations, and Dockerized deployments to keep the environment reproducible and easier to maintain.",
-        "Deployed the backend on Render and the React + TypeScript frontend on Vercel under a custom domain (plab2practice.com), leveraging modern cloud hosting practices.",
-        "Developed an accessible frontend using React, TypeScript, Tailwind CSS, and Material UI, focusing on clear layout, readable typography, and keyboard-friendly interactions.",
-        "Supported over 500 active users in a cloud-ready production environment, gathering feedback from real exam candidates to guide iterative improvements."
+        "Built a full-stack real-time practice platform that allows medical professionals to join shared sessions and simulate live clinical consultations, resulting in an accessible alternative to in-person PLAB 2 exam practice.",
+        "Implemented synchronized real-time session behavior, enabling multiple users to join a session via a shared code, view each other’s actions, and progress through timed consultations simultaneously.",
+        "Developed session controls that keep participants in sync, including shared timers, state transitions, and coordinated actions, ensuring a consistent experience across all connected users.",
+        "Designed and implemented a secure authentication system using JWT and Spring Security, providing separate dashboards for regular users and administrators while keeping session participation lightweight and frictionless.",
+        "Built a modular and scalable backend using Java and Spring Boot with over 60 REST API endpoints, following a layered architecture to support future feature expansion.",
+        "Deployed the application to a production cloud environment using Dockerized services, supporting a stable live platform with custom domain hosting and proactive uptime monitoring.",
+        "Launched and maintained a live platform with 165 users actively preparing for PLAB 2, incorporating feedback from real exam candidates to guide ongoing improvements."
       ],
-      "technologies": [
-        "Spring Boot",
+      "stack": [
         "Java",
+        "Spring Boot",
+        "Spring Security",
+        "JWT",
+        "REST APIs",
+        "WebSocket",
         "React",
         "TypeScript",
+        "TailwindCSS",
         "PostgreSQL",
-        "Supabase",
-        "WebSocket",
         "Docker",
-        "Render",
-        "Vercel"
+        "Cloud Deployment"
+      ],
+      "tags": [
+        "full-stack",
+        "real-time-systems",
+        "healthcare",
+        "exam-preparation",
+        "websockets",
+        "cloud-native"
       ]
     },
     {
+      "type": "personal_project",
       "name": "Interview Coach AI",
+      "location": "Remote",
+      "start_date": "2024-06",
+      "end_date": "present",
       "summary_short": "MERN-based AI interview prep platform using Gemini API, JWT, and Google OAuth.",
       "link": "https://interviewcoach-ai.vercel.app/",
       "repository": "https://github.com/altansaid/interviewcoach-ai",
-      "description": "AI-powered interview preparation app generating tailored questions with pinning and explanation features.",
+      "description": "Built an AI-powered interview practice platform that generates personalized interview questions based on a candidate’s role, experience, and preparation goals. The platform addresses the inefficiency of manually crafting prompts for AI tools by providing a structured, reusable workflow for realistic interview preparation.",
       "achievements": [
-        "Developed a cloud-native MERN platform that integrates Google’s Gemini AI to generate personalized interview questions tailored to a candidate’s goals and experience.",
-        "Implemented secure authentication flows using JWT, Google OAuth, and bcrypt, along with an email-based password reset, to support a production-style login experience.",
-        "Built a fully modal-based Forgot Password flow to keep the password recovery experience smooth and focused within the app’s UI, without disruptive page transitions.",
-        "Created note-taking, pinning, and progress-tracking features so users can organize questions, track their preparation, and revisit important topics over time.",
-        "Designed and implemented RESTful APIs following an MVC-style structure, with clear routing and controller separation for question generation, user data, and progress tracking.",
-        "Enabled image upload and secure file handling with Multer where required, demonstrating familiarity with handling user-generated content in a controlled way.",
-        "Improved reliability and deployment confidence using CI/CD pipelines, Docker-based configurations, and testing practices appropriate for a small production-like application.",
-        "Implemented a responsive UI with TailwindCSS and Framer Motion, using animations and transitions to make interactions feel modern while keeping them accessible and WCAG-aligned."
+        "Developed a full-stack web application that generates customized interview questions using a large language model (LLM) API, allowing users to practice interviews tailored to specific roles and experience levels.",
+        "Designed an input-driven question generation flow that transforms user-provided context into structured prompts, enabling the AI to simulate realistic interviewer-style questioning.",
+        "Implemented a user dashboard where generated interview sets are organized by role, allowing users to revisit, manage, and continue practicing previously generated questions.",
+        "Built features for pinning and favoriting questions, enabling users to prioritize challenging topics and repeatedly practice high-impact interview questions.",
+        "Enhanced learning depth by providing expandable AI-generated explanations for each question, allowing users to explore detailed reasoning behind suggested answers.",
+        "Implemented secure authentication using JWT and Google OAuth, providing a frictionless login experience while protecting user data.",
+        "Designed RESTful APIs using Node.js and Express with MongoDB for persistence, supporting scalable storage of user sessions, questions, and preferences."
       ],
-      "technologies": [
-        "MongoDB",
-        "Express",
+      "stack": [
+        "Next.js",
         "React",
         "Node.js",
+        "Express",
+        "MongoDB",
         "JWT",
         "Google OAuth",
-        "TailwindCSS",
-        "Framer Motion"
+        "LLM API",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Git"
+      ],
+      "tags": [
+        "full-stack",
+        "ai-powered",
+        "interview-preparation",
+        "llm",
+        "saas",
+        "productivity"
       ]
     }
   ],
 
   "technical_skills": {
-    "languages": [
-      "JavaScript",
-      "TypeScript",
-      "Java",
-      "C#",
-      "PHP",
-      "SQL",
-      "HTML5",
-      "CSS3"
-    ],
-    "frontend": [
-      "React",
-      "Redux",
-      "TailwindCSS",
-      "Material UI",
-      "Bootstrap",
-      "Responsive Design",
-      "WCAG"
-    ],
-    "backend": [
-      "Spring Boot",
-      "Node.js",
-      "Express",
-      "ASP.NET Core",
-      "Laravel",
-      "Livewire",
-      "REST APIs",
-      "JWT",
-      "OAuth"
-    ],
-    "databases": [
-      "PostgreSQL",
-      "MySQL",
-      "MongoDB"
-    ],
-    "cloud": [
-      "Render",
-      "Vercel",
-      "Netlify",
-      "Google Cloud Platform",
-      "Supabase"
-    ],
-    "tools": [
-      "Docker",
-      "Git",
-      "Linux CLI",
-      "NVM",
-      "Homebrew"
-    ],
-    "practices": [
-      "Agile",
-      "Scrum",
+    "core_skills": {
+      "languages": ["JavaScript", "TypeScript", "Java"],
+      "frontend": [
+        "React",
+        "Next.js",
+        "Redux",
+        "TailwindCSS",
+        "Responsive Design",
+        "Accessibility (WCAG)"
+      ],
+      "backend": [
+        "Spring Boot",
+        "Node.js",
+        "Express",
+        "REST APIs",
+        "JWT",
+        "OAuth"
+      ],
+      "databases": ["PostgreSQL", "MongoDB"]
+    },
+    "supporting_skills": {
+      "additional_languages": ["PHP", "C#", "SQL"],
+      "frontend_tools": ["Material UI", "Bootstrap"],
+      "backend_frameworks": ["ASP.NET Core", "Laravel", "Livewire"],
+      "cloud_platforms": [
+        "Google Cloud Platform",
+        "Render",
+        "Vercel",
+        "Netlify",
+        "Supabase"
+      ],
+      "devops_tools": ["Docker", "Git"],
+      "system_tools": ["Linux CLI", "NVM", "Homebrew"]
+    },
+    "engineering_practices": [
+      "Agile / Scrum",
       "CI/CD",
-      "Unit Testing",
       "Clean Architecture",
+      "Unit Testing",
       "Code Reviews"
     ]
   }
