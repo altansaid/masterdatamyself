@@ -20,31 +20,30 @@
   "experience": [
     {
       "type": "internship",
-      "title": "Web Developer Intern (Web Marketing Team)",
+      "title": "Software Developer Co-op – Web Platforms",
       "company": "Solace",
       "location": "Ottawa, Canada",
       "start_date": "2024-09",
       "end_date": "2024-12",
-      "description": "Contributed as a Web Developer Intern on the Marketing Web Team, supporting multiple production marketing and developer-facing websites. Worked across WordPress and React/Gatsby (Node.js) properties, delivering frontend features, resolving production issues, and improving performance, SEO, and overall site quality through a ticket-driven Agile workflow.",
+      "description": "Worked as a Software Developer Co-op on production web platforms, contributing to interactive and content-driven applications. Focused on system-level frontend development, production issue resolution, and quality improvements across performance, accessibility, and SEO within a cross-functional Agile team.",
       "achievements": [
-        "Improved and maintained large-scale WordPress marketing sites by building reusable UI components, fixing production issues, and implementing content and layout updates, resulting in more consistent user experiences across marketing pages.",
-        "Enhanced long-form content usability by redesigning and extending an existing navigation solution within WordPress, enabling clearer content structure and smoother in-page navigation for complex blog posts.",
-        "Designed and developed a seasonal internal WordPress experience from the ground up, translating a custom Figma design into a fully functional site using PHP and Advanced Custom Fields, delivering an interactive campaign used company-wide during the holiday period.",
-        "Contributed to stabilizing React/Gatsby (Node.js) sites by collaborating with web and software engineering teammates to diagnose and resolve build and deployment issues introduced after framework and runtime upgrades.",
-        "Supported ongoing SEO, performance, and accessibility initiatives by iterating on front-end implementations based on Lighthouse insights, helping ensure marketing pages remained fast, accessible, and aligned with best practices.",
-        "Operated within a Jira-based Agile workflow, collaborating daily with the web team and regularly with Marketing and Product Marketing stakeholders to translate business needs into technical deliverables."
+        "Developed and maintained large-scale web platforms by implementing reusable application-level components and improving interaction logic, resulting in more consistent behavior and reduced regression issues across production pages.",
+        "Redesigned a complex in-page navigation and interaction system by restructuring state-driven UI flows for long-form, information-dense pages, resulting in improved usability and clearer content discoverability for end users.",
+        "Built a custom internal web platform by translating Figma designs into a fully functional application with dynamic, configurable sections, enabling a successful company-wide seasonal initiative used across multiple teams.",
+        "Resolved critical production issues impacting live web platforms by collaborating with engineers to diagnose problems related to framework upgrades, runtime changes, and deployment workflows, restoring platform stability and preventing recurring deployment failures.",
+        "Improved application performance, accessibility, and SEO compliance by iterating on client-side implementations based on Lighthouse audits and engineering best practices, leading to faster load times and improved compliance with web standards.",
+        "Delivered production-ready features within an Agile environment by translating business requirements into scalable technical solutions in collaboration with engineering and product stakeholders, ensuring timely delivery and alignment with business goals."
       ],
       "stack": [
-        "WordPress",
-        "PHP",
         "JavaScript",
-        "jQuery",
+        "TypeScript",
         "HTML",
         "CSS",
+        "PHP",
         "React",
         "Gatsby",
         "Node.js",
-        "Advanced Custom Fields (ACF)",
+        "REST APIs",
         "Figma",
         "Lighthouse",
         "Hotjar",
@@ -53,13 +52,13 @@
         "Jira"
       ],
       "tags": [
-        "web-development",
-        "frontend",
-        "marketing-sites",
-        "wordpress",
-        "seo",
+        "software-development",
+        "web-platforms",
+        "interactive-systems",
+        "state-driven-ui",
         "performance",
         "accessibility",
+        "seo",
         "agile"
       ]
     },
