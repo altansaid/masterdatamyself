@@ -69,13 +69,13 @@
       "location": "Remote",
       "start_date": "2025-07",
       "end_date": "present",
-      "description": "Contributed as a volunteer Frontend Software Developer on a B2B SaaS web application that helps Amazon sellers identify cross-marketplace arbitrage opportunities by comparing product pricing across regions. Focused on improving frontend performance, data-heavy user workflows, and overall user experience in close collaboration with product owners.",
+      "description": "Contributed as a volunteer Frontend Software Developer on a B2B SaaS web application that helps Amazon sellers identify cross-marketplace arbitrage opportunities by comparing product pricing across regions. Focused on improving frontend performance, data-heavy user workflows, and overall user experience, while working with an understanding of backend data pipelines and pagination behavior implemented in Go.",
       "achievements": [
         "Eliminated pagination wait times during product exploration by implementing deterministic prefetching of adjacent result pages, reducing multi-second page transitions to near-instant navigation when browsing large product datasets.",
         "Ensured data correctness across complex filter and sort combinations by implementing cache validation tied to active filter state, preventing stale data reuse and resolving production-only pagination and filtering inconsistencies.",
         "Improved reliability of asynchronous product fetching by detecting and discarding stale responses in Redux Sagas and coordinating fetch and prefetch lifecycles with guarded React refs, preventing race conditions under rapid user interactions.",
         "Optimized large-scale product filtering (250K+ records) by restructuring filter execution into an explicit, batched apply flow, significantly reducing redundant network requests and improving responsiveness during multi-criteria filtering.",
-        "Stabilized Firestore-backed, cursor-based pagination by caching visited pages and explicitly managing fetch state transitions, enabling instant back-navigation and predictable data flow across page changes.",
+        "Stabilized Firestore-backed, cursor-based pagination by aligning frontend state management with cursor-based pagination behavior exposed by Go backend services, enabling instant back-navigation and predictable data flow across page changes.",
         "Modernized the overall application UI and user experience by identifying high-friction workflows and redesigning interaction patterns to better align with real user behavior and performance constraints.",
         "Improved delivery quality by working closely with product owners to investigate production issues and validate fixes through rapid iteration."
       ],
@@ -96,6 +96,7 @@
         "Firebase Authentication",
         "Firestore",
         "REST APIs",
+        "Go",
         "Git"
       ],
       "tags": [
@@ -105,6 +106,7 @@
         "performance-optimization",
         "state-management",
         "ux",
+        "backend-awareness",
         "volunteer"
       ]
     }
