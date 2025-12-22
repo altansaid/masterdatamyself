@@ -62,44 +62,52 @@
         "agile"
       ]
     },
-    {
-      "type": "volunteer_contributor",
-      "title": "Frontend Software Developer (Volunteer)",
-      "company": "Arbitrage Cyclops",
-      "location": "Remote",
-      "start_date": "2025-07",
-      "end_date": "present",
-      "description": "Contributed as a volunteer Frontend Software Developer on a B2B SaaS web application that helps Amazon sellers identify cross-marketplace arbitrage opportunities by comparing product pricing across regions. Worked closely with the product owner to improve the user interface, frontend architecture, and API integration quality across both marketing and data-heavy product pages.",
-      "achievements": [
-        "Improved the landing page experience by redesigning and implementing a complete React-based layout with clear hero messaging, calls to action, and responsive sections, resulting in a clearer value proposition for new users.",
-        "Built and refined frontend pages from end to end using React, TypeScript, and Tailwind CSS, translating product requirements into clean, user-friendly interfaces optimized for seller workflows.",
-        "Enhanced usability of data-heavy product browsing pages by implementing responsive navigation, filtering, and pagination patterns, enabling users to explore large volumes of scanned products more efficiently.",
-        "Optimized frontend API integration by aligning UI data needs with existing backend responses, simplifying request patterns and reducing frontend complexity when consuming REST APIs.",
-        "Improved overall UX and performance for large result sets by focusing on UI-level optimizations, predictable state management, and efficient rendering strategies in React.",
-        "Collaborated closely with the product owner to iterate on feature ideas, validate UI decisions, and adapt frontend implementations to evolving backend capabilities without direct backend ownership."
-      ],
-      "stack": [
-        "React",
-        "TypeScript",
-        "JavaScript",
-        "Redux",
-        "TailwindCSS",
-        "REST APIs",
-        "HTML",
-        "CSS",
-        "Git"
-      ],
-      "tags": [
-        "b2b-saas",
-        "frontend",
-        "e-commerce",
-        "data-heavy-ui",
-        "ux",
-        "volunteer"
-      ]
-    }
+   {
+  "type": "volunteer_contributor",
+  "title": "Frontend Software Developer (Volunteer)",
+  "company": "Arbitrage Cyclops",
+  "location": "Remote",
+  "start_date": "2025-07",
+  "end_date": "present",
+  "description": "Contributed as a volunteer Frontend Software Developer on a B2B SaaS web application that helps Amazon sellers identify cross-marketplace arbitrage opportunities by comparing product pricing across regions. Focused on improving frontend performance, data-heavy user workflows, and overall user experience in close collaboration with product owners.",
+  "achievements": [
+    "Eliminated pagination wait times during product exploration by implementing deterministic prefetching of adjacent result pages, reducing multi-second page transitions to near-instant navigation when browsing large product datasets.",
+    "Ensured data correctness across complex filter and sort combinations by implementing cache validation tied to active filter state, preventing stale data reuse and resolving production-only pagination and filtering inconsistencies.",
+    "Improved reliability of asynchronous product fetching by detecting and discarding stale responses in Redux Sagas and coordinating fetch and prefetch lifecycles with guarded React refs, preventing race conditions under rapid user interactions.",
+    "Optimized large-scale product filtering (250K+ records) by restructuring filter execution into an explicit, batched apply flow, significantly reducing redundant network requests and improving responsiveness during multi-criteria filtering.",
+    "Stabilized Firestore-backed, cursor-based pagination by caching visited pages and explicitly managing fetch state transitions, enabling instant back-navigation and predictable data flow across page changes.",
+    "Modernized the overall application UI and user experience by identifying high-friction workflows and redesigning interaction patterns to better align with real user behavior and performance constraints.",
+    "Improved delivery quality by working closely with product owners to investigate production issues and validate fixes through rapid iteration."
   ],
-
+  "stack": [
+    "React 18",
+    "JavaScript (ES6+)",
+    "Redux",
+    "Redux Saga",
+    "Redux Thunk",
+    "Redux Persist",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "Sass",
+    "Formik",
+    "Yup",
+    "Axios",
+    "Firebase Authentication",
+    "Firestore",
+    "REST APIs",
+    "Git"
+  ],
+  "tags": [
+    "b2b-saas",
+    "frontend",
+    "data-heavy-ui",
+    "performance-optimization",
+    "state-management",
+    "ux",
+    "volunteer"
+  ]
+},
   "projects": [
     {
       "type": "personal_project",
