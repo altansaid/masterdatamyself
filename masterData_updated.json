@@ -1,0 +1,289 @@
+{
+  "personal_info": {
+    "name": "Said Altan",
+    "location": "Ottawa, ON, Canada",
+    "email": "altansaid13@outlook.com",
+    "portfolio": "https://saidaltan.com",
+    "github": "https://github.com/altansaid",
+    "linkedin": "https://linkedin.com/in/saidaltan"
+  },
+
+  "education": [
+    {
+      "degree": "Diploma in Web Development and Internet Applications",
+      "school": "Algonquin College",
+      "location": "Ottawa, Canada",
+      "graduation_date": "2025-04"
+    }
+  ],
+
+  "experience": [
+    {
+      "type": "internship",
+      "title": "Software Developer Co-op – Web Platforms",
+      "company": "Solace",
+      "location": "Ottawa, Canada",
+      "start_date": "2024-09",
+      "end_date": "2024-12",
+      "description": "Worked as a Software Developer Co-op on production web platforms, contributing to interactive and content-driven applications. Focused on system-level frontend development, production issue resolution, and quality improvements across performance, accessibility, and SEO within a cross-functional Agile team.",
+      "achievements": [
+        "Developed and maintained large-scale web platforms by implementing reusable application-level components and improving interaction logic, resulting in more consistent behavior and reduced regression issues across production pages.",
+        "Redesigned a complex in-page navigation and interaction system by restructuring state-driven UI flows for long-form, information-dense pages, resulting in improved usability and clearer content discoverability for end users.",
+        "Built a custom internal web platform by translating Figma designs into a fully functional application with dynamic, configurable sections, enabling a successful company-wide seasonal initiative used across multiple teams.",
+        "Resolved critical production issues impacting live web platforms by collaborating with engineers to diagnose problems related to framework upgrades, runtime changes, and deployment workflows, restoring platform stability and preventing recurring deployment failures.",
+        "Improved application performance, accessibility, and SEO compliance by iterating on client-side implementations based on Lighthouse audits and engineering best practices, leading to faster load times and improved compliance with web standards.",
+        "Delivered production-ready features within an Agile environment by translating business requirements into scalable technical solutions in collaboration with engineering and product stakeholders, ensuring timely delivery and alignment with business goals."
+      ],
+      "stack": [
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "PHP",
+        "React",
+        "Gatsby",
+        "Node.js",
+        "REST APIs",
+        "Figma",
+        "Lighthouse",
+        "Hotjar",
+        "Google Analytics",
+        "Git",
+        "Jira"
+      ],
+      "tags": [
+        "software-development",
+        "web-platforms",
+        "interactive-systems",
+        "state-driven-ui",
+        "performance",
+        "accessibility",
+        "seo",
+        "agile"
+      ]
+    },
+    {
+      "type": "volunteer_contributor",
+      "title": "Frontend Software Developer (Volunteer)",
+      "company": "Arbitrage Cyclops",
+      "location": "Remote",
+      "start_date": "2025-07",
+      "end_date": "present",
+      "description": "Contributed as a volunteer Frontend Software Developer on a B2B SaaS web application that helps Amazon sellers identify cross-marketplace arbitrage opportunities by comparing product pricing across regions. Focused on improving frontend performance, data-heavy user workflows, and overall user experience, while working with an understanding of backend data pipelines and pagination behavior implemented in Go.",
+      "achievements": [
+        "Eliminated pagination wait times during product exploration by implementing deterministic prefetching of adjacent result pages, reducing multi-second page transitions to near-instant navigation when browsing large product datasets.",
+        "Ensured data correctness across complex filter and sort combinations by implementing cache validation tied to active filter state, preventing stale data reuse and resolving production-only pagination and filtering inconsistencies.",
+        "Improved reliability of asynchronous product fetching by detecting and discarding stale responses in Redux Sagas and coordinating fetch and prefetch lifecycles with guarded React refs, preventing race conditions under rapid user interactions.",
+        "Optimized large-scale product filtering (250K+ records) by restructuring filter execution into an explicit, batched apply flow, significantly reducing redundant network requests and improving responsiveness during multi-criteria filtering.",
+        "Stabilized Firestore-backed, cursor-based pagination by aligning frontend state management with cursor-based pagination behavior exposed by Go backend services, enabling instant back-navigation and predictable data flow across page changes.",
+        "Modernized the overall application UI and user experience by identifying high-friction workflows and redesigning interaction patterns to better align with real user behavior and performance constraints.",
+        "Improved delivery quality by working closely with product owners to investigate production issues and validate fixes through rapid iteration."
+      ],
+      "stack": [
+        "React 18",
+        "JavaScript (ES6+)",
+        "Redux",
+        "Redux Saga",
+        "Redux Thunk",
+        "Redux Persist",
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "Sass",
+        "Formik",
+        "Yup",
+        "Axios",
+        "Firebase Authentication",
+        "Firestore",
+        "REST APIs",
+        "Go",
+        "Git"
+      ],
+      "tags": [
+        "b2b-saas",
+        "frontend",
+        "data-heavy-ui",
+        "performance-optimization",
+        "state-management",
+        "ux",
+        "backend-awareness",
+        "volunteer"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "type": "personal_project",
+      "name": "QDock",
+      "location": "Remote",
+      "start_date": "2026-02",
+      "end_date": "present",
+      "summary_short": "Native macOS menu bar app for real-time AI coding tool quota monitoring, built with Swift and zero dependencies.",
+      "link": null,
+      "repository": "https://github.com/altansaid/QDock",
+      "description": "Designed and built a native macOS menu bar application that monitors usage quotas for AI coding tools (Claude Code, Codex CLI) in real time. The app addresses the problem of developers hitting usage limits unexpectedly by providing instant visibility into quota consumption directly from the system status bar, with zero third-party dependencies.",
+      "achievements": [
+        "Implemented a 4-tier provider detection system (custom path, environment variable, default directory, CLI binary discovery via login shell PATH including NVM and Homebrew paths) that reliably locates AI tool installations without requiring any user configuration, while avoiding Keychain access during detection to prevent macOS permission prompts.",
+        "Designed a protocol-based provider architecture (QuotaProvider) that decouples detection, authentication, and data fetching into composable units, enabling new AI tool integrations to be added by implementing a single protocol while ProviderManager orchestrates concurrent quota fetching using structured concurrency (TaskGroup) with per-provider timeouts.",
+        "Built a 3-tier credential resolution chain (file-based credentials, silent Keychain read via macOS security CLI, manual token fallback) that retrieves access tokens without triggering system permission dialogs, with 5-minute credential caching and backward-compatible legacy key migration.",
+        "Implemented GCD-based file system watching (DispatchSourceFileSystemObject) that monitors config directories for new session files, with a hierarchical watcher strategy that observes parent directories when target paths don't yet exist and dynamically attaches child watchers upon directory creation, all with debounced refresh to coalesce rapid events.",
+        "Designed configurable refresh intervals (1min, 2min, 5min, manual) that allow users to balance between real-time visibility and API call frequency, combined with stale-data fallback that continues displaying cached quota information when requests fail to keep the UI informative during network issues.",
+        "Built a zero-dependency macOS menu bar application using SwiftUI and AppKit hybrid approach with the Observation framework for reactive state management, custom NSBezierPath progress ring rendering with color-coded usage levels, and NSLock-based thread safety for cross-thread credential access.",
+        "Shipped 15 releases using a GitHub Actions CI/CD pipeline that builds universal binaries (arm64 + x86_64), creates DMG installers, generates SHA-256 checksums for integrity verification, and publishes to both GitHub Releases and npm with automatic pre-release channel tagging."
+      ],
+      "stack": ["Swift 5.10", "SwiftUI", "AppKit", "macOS Security Framework", "GCD", "Observation Framework", "GitHub Actions"],
+      "tags": ["native-macos", "menu-bar-app", "developer-tools", "quota-monitoring", "protocol-oriented", "zero-dependencies", "ci-cd"]
+    },
+    {
+      "type": "personal_project",
+      "name": "Resume Builder SaaS",
+      "location": "Remote",
+      "start_date": "2025-01",
+      "end_date": "present",
+      "summary_short": "AI-powered resume tailoring platform with 3-stage pipeline: Next.js 14, FastAPI, Supabase.",
+      "link": null,
+      "repository": "https://github.com/altansaid/resume-builder-saas",
+      "description": "Designed and built a full-stack AI-powered SaaS platform that tailors resumes to specific job descriptions through a multi-stage AI pipeline. The system analyzes job postings, generates tailored resume content, and scores ATS compatibility, addressing the gap between generic resumes and what recruiters actually look for.",
+      "achievements": [
+        "Architected a 3-stage resume generation pipeline (job description analysis, content tailoring, ATS scoring) where each stage feeds structured output to the next, enabling the system to transform a generic resume into a role-specific version that preserves authentic experience while aligning with job requirements.",
+        "Built an async FastAPI backend with 8 domain-specific route modules and dependency-injected authentication, implementing tier-gated access control and thread-pooled Supabase queries to work around the synchronous client limitation while maintaining non-blocking request handling.",
+        "Implemented production security layers including per-endpoint rate limiting (SlowAPI), prompt injection prevention via input sanitization before AI prompt assembly, CORS with explicit origin allowlisting, and Stripe webhook signature verification with event-level idempotency to prevent duplicate payment processing.",
+        "Evolved the database schema through 14 incremental Supabase migrations covering webhook event tracking, soft-delete support, resume versioning with snapshot and restore, and index optimization — maintaining backward compatibility throughout without downtime migrations.",
+        "Developed the frontend with Next.js 14 App Router using route groups for auth, protected, and public areas, integrating Supabase Auth SSR with middleware-based session refresh and TanStack Query v5 for server state management across resume editing, cover letter generation, and job application tracking.",
+        "Established a multi-layer testing strategy with pytest for backend services, Vitest with MSW for frontend unit tests, and Playwright for end-to-end flows, all enforced through a GitHub Actions CI pipeline running lint, type checks, and build verification on every pull request.",
+        "Extended the platform with AI-powered cover letter generation that references selected resumes and target job descriptions, and an interview prep module generating role-specific questions with collapsible explanations, pinning, and duplicate-aware load-more functionality."
+      ],
+      "stack": ["Next.js 14", "React 18", "TypeScript", "Tailwind CSS", "shadcn/ui", "TanStack Query v5", "FastAPI", "Python", "Pydantic", "Supabase", "PostgreSQL", "Docker", "Playwright", "Vitest", "pytest", "GitHub Actions"],
+      "tags": ["full-stack", "ai-powered", "saas", "resume-builder", "ats-optimization", "multi-stage-pipeline", "ci-cd"]
+    },
+    {
+      "type": "personal_project",
+      "name": "PLAB2 Practice Platform",
+      "location": "Remote",
+      "start_date": "2024-01",
+      "end_date": "present",
+      "link": "https://plab2practice.com",
+      "repository": "https://github.com/altansaid/plab2projectnew",
+      "description": "Designed and built a real-time web platform that enables international medical graduates to practice for the UK PLAB 2 clinical exam through live, role-based consultation sessions. The platform addresses the lack of realistic, collaborative practice tools for a verbal, station-based medical exam by allowing users to simulate real exam conditions online.",
+      "achievements": [
+        "Built a full-stack real-time practice platform serving 165 active users preparing for the UK PLAB 2 clinical exam, providing an accessible alternative to in-person practice by enabling shared online consultation sessions that simulate actual exam conditions with role-based participation.",
+        "Implemented real-time session synchronization using WebSocket connections, enabling multiple users to join via a shared session code and experience coordinated state transitions, shared timers, and simultaneous progression through timed clinical consultations without drift between participants.",
+        "Designed a modular backend with Java and Spring Boot exposing 60+ REST API endpoints across a layered architecture (controller, service, repository), structured to isolate domain concerns and support incremental feature additions like admin dashboards and session analytics without refactoring existing routes.",
+        "Implemented a secure authentication and authorization system using JWT tokens with Spring Security, providing role-based access control that separates regular user flows from administrator dashboards while keeping session participation lightweight through token-based join mechanisms.",
+        "Developed a session management system with server-side state tracking that coordinates participant actions, enforces timing constraints, and handles edge cases like mid-session disconnections and late joins, ensuring consistent exam simulation regardless of network conditions.",
+        "Deployed the application to a production cloud environment using Dockerized services with custom domain hosting and proactive uptime monitoring, maintaining a stable live platform sustaining consistent usage from medical graduates across multiple countries.",
+        "Incorporated ongoing feedback from real exam candidates to iterate on session flow adjustments, UI improvements for mobile users, and clinical scenario management, treating the platform as a living product rather than a static deployment."
+      ],
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "JWT",
+        "REST APIs",
+        "WebSocket",
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "PostgreSQL",
+        "Docker",
+        "Cloud Deployment"
+      ],
+      "tags": [
+        "full-stack",
+        "real-time-systems",
+        "healthcare",
+        "exam-preparation",
+        "websockets",
+        "cloud-native"
+      ]
+    },
+    {
+      "type": "personal_project",
+      "name": "Interview Coach AI",
+      "location": "Remote",
+      "start_date": "2024-06",
+      "end_date": "present",
+      "summary_short": "MERN-based AI interview prep platform using Gemini API, JWT, and Google OAuth.",
+      "link": "https://interviewcoach-ai.vercel.app/",
+      "repository": "https://github.com/altansaid/interviewcoach-ai",
+      "description": "Built an AI-powered interview practice platform that generates personalized interview questions based on a candidate's role, experience, and preparation goals. The platform addresses the inefficiency of manually crafting prompts for AI tools by providing a structured, reusable workflow for realistic interview preparation.",
+      "achievements": [
+        "Built a full-stack AI interview preparation platform using Next.js, Node.js, Express, and MongoDB that generates personalized questions tailored to a candidate's target role, experience level, and preparation goals, replacing the manual process of crafting AI prompts with a structured, reusable workflow.",
+        "Designed an input-driven question generation flow that transforms user-provided context (role, experience level, interview type, domain focus) into structured prompts for the Gemini API, producing interviewer-style questions that adapt in difficulty and focus area based on the candidate's profile.",
+        "Implemented a persistent user dashboard where generated interview sets are organized by role and session, allowing users to revisit previous sessions, track preparation history, and continue practicing without losing context across multiple login sessions.",
+        "Built pin and favorite functionality enabling users to flag challenging questions for repeated practice, creating a personalized review system that surfaces high-priority topics and helps candidates focus study time on their weakest areas.",
+        "Integrated expandable AI-generated explanations for each question, providing detailed reasoning behind suggested answers that users can reveal on demand, turning each practice session into both an assessment and a learning opportunity.",
+        "Implemented secure authentication with dual strategy support: Google OAuth for frictionless social login and JWT-based session management for API authorization, ensuring user data isolation while minimizing signup friction.",
+        "Designed and deployed RESTful APIs with Express and MongoDB for scalable persistence of user sessions, generated questions, and preferences, with the application live and accessible at interviewcoach-ai.vercel.app."
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT",
+        "Google OAuth",
+        "LLM API",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Git"
+      ],
+      "tags": [
+        "full-stack",
+        "ai-powered",
+        "interview-preparation",
+        "llm",
+        "saas",
+        "productivity"
+      ]
+    }
+  ],
+
+  "technical_skills": {
+    "core_skills": {
+      "languages": ["JavaScript", "TypeScript", "Java", "Python", "Swift"],
+      "frontend": [
+        "React",
+        "Next.js",
+        "Redux",
+        "TailwindCSS",
+        "Responsive Design",
+        "Accessibility (WCAG)"
+      ],
+      "backend": [
+        "Spring Boot",
+        "Node.js",
+        "Express",
+        "FastAPI",
+        "REST APIs",
+        "JWT",
+        "OAuth"
+      ],
+      "databases": ["PostgreSQL", "MongoDB"]
+    },
+    "supporting_skills": {
+      "additional_languages": ["PHP", "C#", "SQL"],
+      "frontend_tools": ["Material UI", "Bootstrap"],
+      "backend_frameworks": ["ASP.NET Core", "Laravel", "Livewire"],
+      "cloud_platforms": [
+        "Google Cloud Platform",
+        "Render",
+        "Vercel",
+        "Netlify",
+        "Supabase"
+      ],
+      "devops_tools": ["Docker", "Git"],
+      "system_tools": ["Linux CLI", "NVM", "Homebrew"]
+    },
+    "engineering_practices": [
+      "Agile / Scrum",
+      "CI/CD",
+      "Clean Architecture",
+      "Unit Testing",
+      "Code Reviews"
+    ]
+  }
+}
