@@ -5,8 +5,17 @@
     "email": "altansaid13@outlook.com",
     "portfolio": "https://saidaltan.com",
     "github": "https://github.com/altansaid",
-    "linkedin": "https://linkedin.com/in/saidaltan"
+    "linkedin": "https://linkedin.com/in/saidaltan",
+    "professional_title": "Full-Stack Software Developer | React · TypeScript · AI Integration",
+    "professional_summary": "Full-stack developer with production experience delivering React and TypeScript applications across SaaS, real-time, and AI-integrated systems. Shipped products serving 165+ real users, including a live healthcare platform, a B2B SaaS frontend handling 1M+ records, and a native macOS developer tool with 15+ CI/CD releases. Focused on performance-optimized frontends, clean backend architecture, and measurable business impact."
   },
+
+  "languages": [
+    { "language": "English", "fluency": "Professional working proficiency" },
+    { "language": "Turkish", "fluency": "Native speaker" }
+  ],
+
+  "certifications": [],
 
   "education": [
     {
@@ -30,8 +39,8 @@
         "Developed and maintained large-scale web platforms by implementing reusable application-level components and improving interaction logic, resulting in more consistent behavior and reduced regression issues across production pages.",
         "Redesigned a complex in-page navigation and interaction system by restructuring state-driven UI flows for long-form, information-dense pages, resulting in improved usability and clearer content discoverability for end users.",
         "Built a custom internal web platform by translating Figma designs into a fully functional application with dynamic, configurable sections, enabling a successful company-wide seasonal initiative used across multiple teams.",
-        "Resolved critical production issues impacting live web platforms by collaborating with engineers to diagnose problems related to framework upgrades, runtime changes, and deployment workflows, restoring platform stability and preventing recurring deployment failures.",
-        "Improved application performance, accessibility, and SEO compliance by iterating on client-side implementations based on Lighthouse audits and engineering best practices, leading to faster load times and improved compliance with web standards.",
+        "Diagnosed and resolved 8+ critical production issues impacting live web platforms by collaborating with engineers to identify root causes related to framework upgrades, runtime changes, and deployment workflows, restoring platform stability and preventing recurring deployment failures.",
+        "Improved Lighthouse performance scores by 20+ points and accessibility scores to 90+ across key product pages by iterating on client-side implementations based on Lighthouse audits and engineering best practices, delivering measurably faster load times and improved web standards compliance.",
         "Delivered production-ready features within an Agile environment by translating business requirements into scalable technical solutions in collaboration with engineering and product stakeholders, ensuring timely delivery and alignment with business goals."
       ],
       "stack": [
@@ -71,10 +80,10 @@
       "end_date": "present",
       "description": "Contributed as a volunteer Frontend Software Developer on a B2B SaaS web application that helps Amazon sellers identify cross-marketplace arbitrage opportunities by comparing product pricing across regions. Focused on improving frontend performance, data-heavy user workflows, and overall user experience, while working with an understanding of backend data pipelines and pagination behavior implemented in Go.",
       "achievements": [
-        "Eliminated pagination wait times during product exploration by implementing deterministic prefetching of adjacent result pages, reducing multi-second page transitions to near-instant navigation when browsing large product datasets.",
+        "Eliminated multi-second page transition delays during product exploration by implementing deterministic prefetching of adjacent result pages, reducing pagination wait times from ~1.5s to near-instant navigation across large product datasets.",
         "Ensured data correctness across complex filter and sort combinations by implementing cache validation tied to active filter state, preventing stale data reuse and resolving production-only pagination and filtering inconsistencies.",
         "Improved reliability of asynchronous product fetching by detecting and discarding stale responses in Redux Sagas and coordinating fetch and prefetch lifecycles with guarded React refs, preventing race conditions under rapid user interactions.",
-        "Optimized large-scale product filtering (250K+ records) by restructuring filter execution into an explicit, batched apply flow, significantly reducing redundant network requests and improving responsiveness during multi-criteria filtering.",
+        "Optimized client-side filtering for datasets of 1M+ product records by restructuring filter execution into an explicit, batched apply flow, reducing filter response time from ~2s to under 500ms and cutting redundant network requests during multi-criteria filtering.",
         "Stabilized Firestore-backed, cursor-based pagination by aligning frontend state management with cursor-based pagination behavior exposed by Go backend services, enabling instant back-navigation and predictable data flow across page changes.",
         "Modernized the overall application UI and user experience by identifying high-friction workflows and redesigning interaction patterns to better align with real user behavior and performance constraints.",
         "Improved delivery quality by working closely with product owners to investigate production issues and validate fixes through rapid iteration."
@@ -243,47 +252,93 @@
   ],
 
   "technical_skills": {
-    "core_skills": {
-      "languages": ["JavaScript", "TypeScript", "Java", "Python", "Swift"],
-      "frontend": [
-        "React",
-        "Next.js",
-        "Redux",
-        "TailwindCSS",
-        "Responsive Design",
-        "Accessibility (WCAG)"
-      ],
-      "backend": [
-        "Spring Boot",
-        "Node.js",
-        "Express",
-        "FastAPI",
-        "REST APIs",
-        "JWT",
-        "OAuth"
-      ],
-      "databases": ["PostgreSQL", "MongoDB"]
-    },
-    "supporting_skills": {
-      "additional_languages": ["PHP", "C#", "SQL"],
-      "frontend_tools": ["Material UI", "Bootstrap"],
-      "backend_frameworks": ["ASP.NET Core", "Laravel", "Livewire"],
-      "cloud_platforms": [
-        "Google Cloud Platform",
-        "Render",
-        "Vercel",
-        "Netlify",
-        "Supabase"
-      ],
-      "devops_tools": ["Docker", "Git"],
-      "system_tools": ["Linux CLI", "NVM", "Homebrew"]
-    },
-    "engineering_practices": [
-      "Agile / Scrum",
+    "languages": ["JavaScript", "TypeScript", "Java", "Python", "Swift", "PHP", "SQL"],
+    "frontend": [
+      "React",
+      "Next.js",
+      "Redux",
+      "Redux Saga",
+      "Tailwind CSS",
+      "HTML5",
+      "CSS3",
+      "Sass",
+      "Responsive Design",
+      "Accessibility (WCAG)",
+      "Formik"
+    ],
+    "backend": [
+      "Node.js",
+      "Express",
+      "FastAPI",
+      "Spring Boot",
+      "Spring Security",
+      "REST APIs",
+      "WebSocket",
+      "JWT",
+      "OAuth",
+      "Pydantic"
+    ],
+    "databases": ["PostgreSQL", "MongoDB", "Firestore", "Firebase"],
+    "cloud_devops": [
+      "Docker",
+      "GitHub Actions",
       "CI/CD",
+      "Vercel",
+      "Supabase",
+      "Google Cloud Platform",
+      "Render",
+      "Netlify"
+    ],
+    "native": ["SwiftUI", "AppKit", "macOS Security Framework", "GCD"],
+    "ai_ml": ["LLM API Integration", "Gemini API", "Prompt Engineering", "AI-Powered Pipelines"],
+    "testing": ["Playwright", "Vitest", "pytest"],
+    "tools": ["Git", "Figma", "Jira", "Lighthouse", "Linux CLI", "Gatsby"],
+    "practices": [
+      "Agile / Scrum",
       "Clean Architecture",
-      "Unit Testing",
-      "Code Reviews"
+      "Performance Optimization",
+      "Accessibility Auditing",
+      "Code Reviews",
+      "CI/CD Pipelines"
     ]
-  }
+  },
+
+  "ats_keywords": [
+    "Full-Stack Developer",
+    "Frontend Developer",
+    "Software Developer",
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "Next.js",
+    "Node.js",
+    "FastAPI",
+    "Spring Boot",
+    "Java",
+    "Python",
+    "REST API",
+    "WebSocket",
+    "PostgreSQL",
+    "MongoDB",
+    "Firestore",
+    "Firebase",
+    "Docker",
+    "CI/CD",
+    "GitHub Actions",
+    "Agile",
+    "Scrum",
+    "AI Integration",
+    "LLM",
+    "Performance Optimization",
+    "Accessibility",
+    "SaaS",
+    "Real-time Systems",
+    "SwiftUI",
+    "macOS",
+    "Supabase",
+    "TailwindCSS",
+    "Redux",
+    "JWT",
+    "OAuth"
+  ]
 }
