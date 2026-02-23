@@ -150,18 +150,21 @@
       "location": "Remote",
       "start_date": "2025-01",
       "end_date": "present",
-      "summary_short": "AI-powered resume tailoring platform with 3-stage pipeline: Next.js 14, FastAPI, Supabase.",
+      "summary_short": "AI-powered resume tailoring platform with 4-stage pipeline: Next.js 14, FastAPI, Supabase.",
       "link": null,
       "repository": "https://github.com/altansaid/resume-builder-saas",
       "description": "Designed and built a full-stack AI-powered SaaS platform that tailors resumes to specific job descriptions through a multi-stage AI pipeline. The system analyzes job postings, generates tailored resume content, and scores ATS compatibility, addressing the gap between generic resumes and what recruiters actually look for.",
       "achievements": [
-        "Architected a 3-stage resume generation pipeline covering job description analysis, content tailoring, and ATS scoring, where each stage feeds structured output to the next to transform a generic resume into a role-specific version that aligns with job requirements.",
-        "Built an async FastAPI backend with domain-specific route modules and dependency-injected authentication, implementing tier-gated access control and thread-pooled database queries to maintain non-blocking request handling across all API operations.",
-        "Implemented production security layers including per-endpoint rate limiting, prompt injection prevention via input sanitization, CORS with origin allowlisting, and Stripe webhook signature verification with idempotency to prevent duplicate payment processing.",
-        "Evolved the database schema through incremental Supabase migrations covering webhook event tracking, soft-delete support, resume versioning with snapshot and restore, and index optimization while maintaining backward compatibility without downtime.",
+        "Architected a 4-stage AI resume generation pipeline (JD analysis → content strategy → section writing → ATS scoring) where each stage feeds structured output to the next, transforming generic master data into role-specific resumes tailored to individual job descriptions.",
+        "Built an async FastAPI backend serving 59 API endpoints across 9 domain-specific route modules with dependency-injected authentication, tier-gated access control, and thread-pooled Supabase queries to maintain non-blocking request handling.",
         "Developed the frontend with Next.js 14 App Router using route groups for auth, protected, and public areas, integrating Supabase Auth SSR with middleware-based session refresh and TanStack Query for server state management across all user-facing features.",
-        "Established a multi-layer testing strategy with pytest for backend services, Vitest with MSW for frontend unit tests, and Playwright for end-to-end flows, all enforced through a GitHub Actions CI pipeline on every pull request.",
-        "Extended the platform with AI-powered cover letter generation that references selected resumes and target job descriptions, and an interview prep module generating role-specific questions with structured explanations and personalized review features."
+        "Implemented production security layers including per-endpoint rate limiting, AI prompt injection prevention via input sanitization, CORS with origin allowlisting, and Stripe webhook signature verification with idempotency to prevent duplicate payment processing.",
+        "Evolved the PostgreSQL schema through 14 incremental Supabase migrations supporting resume versioning with snapshot and restore, soft-delete, webhook event deduplication, and index optimization while maintaining backward compatibility without downtime.",
+        "Established a 620+ test suite spanning three layers — pytest for backend service logic, Vitest with MSW for frontend component isolation, and Playwright for end-to-end user flows — enforced through a GitHub Actions CI pipeline on every pull request.",
+        "Built an AI-powered resume import pipeline that extracts text from uploaded PDF and DOCX files, parses unstructured content into structured master data using GPT-4o with schema-guided prompts, and normalizes dates, skills, and experience entries for immediate editing.",
+        "Implemented AI-powered cover letter generation that cross-references selected resume sections and target job descriptions to produce role-specific cover letters, with section-level editing, PDF export, and persistent storage tied to user accounts.",
+        "Built an interview preparation module that generates role-specific questions with structured AI explanations based on experience level, domain, and interview type, supporting question pinning, personal notes, progressive loading, and deep-dive explanations on demand.",
+        "Designed a section-based resume editor with drag-and-drop reordering, per-section visibility toggles, inline AI bullet optimization, template switching, and real-time LaTeX preview rendering — all backed by automatic version snapshots with one-click restore."
       ],
       "stack": ["Next.js 14", "React 18", "TypeScript", "Tailwind CSS", "shadcn/ui", "TanStack Query v5", "FastAPI", "Python", "Pydantic", "Supabase", "PostgreSQL", "Docker", "Playwright", "Vitest", "pytest", "GitHub Actions"],
       "tags": ["full-stack", "ai-powered", "saas", "resume-builder", "ats-optimization", "multi-stage-pipeline", "ci-cd"]
