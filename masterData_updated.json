@@ -146,13 +146,13 @@
     },
     {
       "type": "personal_project",
-      "name": "Resume Builder SaaS",
+      "name": "Rolevanta",
       "location": "Remote",
       "start_date": "2025-01",
       "end_date": "present",
       "summary_short": "AI-powered resume tailoring platform with 4-stage pipeline: Next.js 14, FastAPI, Supabase.",
       "link": null,
-      "repository": "https://github.com/altansaid/resume-builder-saas",
+      "repository": "https://rolevanta.com",
       "description": "Designed and built a full-stack AI-powered SaaS platform that tailors resumes to specific job descriptions through a multi-stage AI pipeline. The system analyzes job postings, generates tailored resume content, and scores ATS compatibility, addressing the gap between generic resumes and what recruiters actually look for.",
       "achievements": [
         "Architected a 4-stage AI resume generation pipeline (JD analysis → content strategy → section writing → ATS scoring) where each stage feeds structured output to the next, transforming generic master data into role-specific resumes tailored to individual job descriptions.",
