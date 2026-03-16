@@ -128,7 +128,7 @@
         "Designed and implemented a secure authentication system using JWT and Spring Security, providing separate dashboards for regular users and administrators while keeping session participation lightweight and frictionless.",
         "Built a modular and scalable backend using Java and Spring Boot with over 60 REST API endpoints, following a layered architecture to support future feature expansion.",
         "Deployed the application to a production cloud environment using Dockerized services, supporting a stable live platform with custom domain hosting and proactive uptime monitoring.",
-        "Launched and maintained a live platform with 165 users actively preparing for PLAB 2, incorporating feedback from real exam candidates to guide ongoing improvements."
+        "Launched and maintained a live platform with 220 users actively preparing for PLAB 2, incorporating feedback from real exam candidates to guide ongoing improvements."
       ],
       "stack": [
         "Java",
