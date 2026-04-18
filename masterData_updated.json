@@ -210,49 +210,7 @@
         "cloud-native"
       ]
     },
-    {
-      "type": "personal_project",
-      "name": "Interview Coach AI",
-      "location": "Remote",
-      "start_date": "2024-06",
-      "end_date": "present",
-      "summary_short": "MERN-based AI interview prep platform using Gemini API, JWT, and Google OAuth.",
-      "link": "https://interviewcoach-ai.vercel.app/",
-      "repository": "https://github.com/altansaid/interviewcoach-ai",
-      "description": "Built an AI-powered interview practice platform that generates personalized interview questions based on a candidate's role, experience, and preparation goals. The platform addresses the inefficiency of manually crafting prompts for AI tools by providing a structured, reusable workflow for realistic interview preparation.",
-      "achievements": [
-        "Built a full-stack AI interview preparation platform using Next.js, Node.js, Express, and MongoDB that generates personalized questions tailored to a candidate's target role, experience level, and preparation goals, replacing the manual process of crafting AI prompts with a structured, reusable workflow.",
-        "Designed an input-driven question generation flow that transforms user-provided role, experience level, and domain focus into structured prompts for the Gemini API, producing interviewer-style questions that adapt in difficulty and topic based on the candidate's profile.",
-        "Implemented a persistent user dashboard where generated interview sets are organized by role and session, allowing users to revisit previous sessions, track preparation history, and continue practicing without losing context across multiple login sessions.",
-        "Built pin and favorite functionality enabling users to flag challenging questions for repeated practice, creating a personalized review system that surfaces high-priority topics and helps candidates focus study time on their weakest areas.",
-        "Integrated expandable AI-generated explanations for each question, providing detailed reasoning behind suggested answers that users can reveal on demand, turning each practice session into both an assessment and a learning opportunity.",
-        "Implemented secure authentication with dual strategy support: Google OAuth for frictionless social login and JWT-based session management for API authorization, ensuring user data isolation while minimizing signup friction.",
-        "Designed and deployed RESTful APIs with Express and MongoDB for scalable persistence of user sessions, generated questions, and preferences, with the application live and accessible at interviewcoach-ai.vercel.app."
-      ],
-      "stack": [
-        "Next.js",
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "JWT",
-        "Google OAuth",
-        "LLM API",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "Git"
-      ],
-      "tags": [
-        "full-stack",
-        "ai-powered",
-        "interview-preparation",
-        "llm",
-        "saas",
-        "productivity"
-      ]
-    }
-  ],
+    
 
   "technical_skills": {
     "languages": ["JavaScript", "TypeScript", "Java", "Python", "Swift", "PHP", "SQL"],
