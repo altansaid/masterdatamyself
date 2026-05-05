@@ -78,7 +78,7 @@
       "location": "Remote",
       "start_date": "2025-07",
       "end_date": "present",
-      "description": "Contributed as a volunteer Frontend Software Developer on a B2B SaaS web application that helps Amazon sellers identify cross-marketplace arbitrage opportunities by comparing product pricing across regions. Focused on improving frontend performance, data-heavy user workflows, and overall user experience, while working with an understanding of backend data pipelines and pagination behavior implemented in Go.",
+      "description": "Contributed as a Software Developer on a B2B SaaS web application that helps Amazon sellers identify cross-marketplace arbitrage opportunities by comparing product pricing across regions. Focused on improving frontend performance, data-heavy user workflows, and overall user experience, while working with an understanding of backend data pipelines and pagination behavior implemented in Go.",
       "achievements": [
         "Eliminated multi-second page transition delays during product exploration by implementing deterministic prefetching of adjacent result pages, reducing pagination wait times from 1.5s to near-instant navigation across large product datasets.",
         "Ensured data correctness across complex filter and sort combinations by implementing cache validation tied to active filter state, preventing stale data reuse and resolving production-only pagination and filtering inconsistencies.",
@@ -115,8 +115,7 @@
         "performance-optimization",
         "state-management",
         "ux",
-        "backend-awareness",
-        "volunteer"
+        "backend-awareness"
       ]
     }
   ],
