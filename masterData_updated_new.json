@@ -1,0 +1,92 @@
+{
+  "personal_info": {
+    "name": "Said Altan",
+    "location": "Ottawa, ON, Canada",
+    "email": "altansaid13@outlook.com",
+    "portfolio": "https://saidaltan.com",
+    "github": "https://github.com/altansaid",
+    "linkedin": "https://www.linkedin.com/in/altansaid"
+  },
+
+  "experience": [
+    {
+      "title": "Software Developer",
+      "company": "Arbitrage Cyclops",
+      "location": "Toronto, ON",
+      "dates": "Jan 2025 -- Present",
+      "bullets": [
+        "Reduced filter response time from 2s to under 500ms on 1M+ record datasets by restructuring client-side filtering into a batched apply flow",
+        "Increased arbitrage accuracy to 95% across ROI, fees, and sales-velocity estimates by integrating Amazon SP-API and Keepa API with custom profit calculations",
+        "Reduced backend requests by 40% while keeping 700k records responsive by optimizing data-heavy UI workflows with Redux-Saga, debounced search, pagination, and indexed Firestore queries",
+        "Built a responsive UI layer over a backend pipeline that filters 800M+ products monthly down to 1M eligible results, keeping large datasets fluid under heavy filtering and sorting",
+        "Eliminated multi-second page transitions by adding deterministic prefetching of adjacent result pages, cutting pagination waits from 1.5s to near-instant navigation",
+        "Accelerated feature delivery by integrating AI-assisted development tools (Claude Code, Cursor) into the daily workflow for scaffolding, refactoring, and test generation"
+      ]
+    },
+    {
+      "title": "Web Developer Intern",
+      "company": "Solace",
+      "location": "Ottawa, ON",
+      "dates": "Sep 2024 -- Dec 2024",
+      "bullets": [
+        "Designed, built, and deployed a company-wide internal web platform from the ground up, replacing a legacy structure reused across prior years and driving a 50% year-over-year traffic increase",
+        "Rebuilt an outdated, buggy blog table-of-contents plugin from scratch, adding collapsible nested-heading navigation and smooth scrolling to fix broken section tracking",
+        "Reduced repeated one-off work across multiple production sites by building reusable components and plugins, replacing duplicated implementations with shared modules used by content teams",
+        "Improved Lighthouse performance scores by 20+ points and accessibility to 90+ across key pages by acting on audit findings and applying engineering best practices",
+        "Diagnosed and resolved 8+ critical production issues tied to framework upgrades and deployment workflows, restoring build stability and preventing recurring failures"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Rolevanta",
+      "url": "https://rolevanta.com",
+      "summary": "AI-powered resume tailoring SaaS (Next.js, FastAPI, Supabase).",
+      "bullets": [
+        "Architected and shipped a full-stack AI resume platform solo in 3 months, spanning an async FastAPI backend, a React editor with drag-and-drop reordering and real-time preview, and a multi-stage AI pipeline",
+        "Drove organic traffic to 1,200 monthly visitors within 2 months of launch by architecting a programmatic SEO system spanning 350 statically pre-rendered pages",
+        "Established a 620-test suite across unit, component, and end-to-end layers enforced in CI on every pull request",
+        "Built an async FastAPI backend serving 59 endpoints with tier-gated access control, and evolved a PostgreSQL schema through 14 zero-downtime migrations supporting resume versioning and restore",
+        "Hardened production with per-endpoint rate limiting, prompt-injection input sanitization, CORS allowlisting, and idempotent Stripe webhook verification"
+      ]
+    },
+    {
+      "name": "Plab2 Practice",
+      "url": "https://plab2practice.com",
+      "summary": "Real-time platform for UK PLAB 2 clinical exam practice (Java, Spring Boot, React, WebSocket).",
+      "bullets": [
+        "Architected a STOMP WebSocket engine synchronizing 5 session phases across 3 participant roles with a drift-free shared-timestamp timer that eliminated per-second traffic for every participant",
+        "Developed a Spring Boot REST API on Java 21 spanning 9 controllers and 6 JPA entities behind a real-time platform serving 300+ active users across multiple countries",
+        "Built thread-safe session coordination with a 10-thread scheduled executor and 4 concurrent maps tracking timers, tasks, activity, and disconnect timeouts to keep sessions consistent under load",
+        "Implemented JWT authentication with Spring Security and role-based access control separating user flows from admin dashboards while keeping session joins lightweight",
+        "Deployed Dockerized services to a production cloud environment with custom domain hosting and uptime monitoring, sustaining consistent usage from medical graduates"
+      ]
+    },
+    {
+      "name": "QDock",
+      "url": "https://github.com/altansaid/QDock",
+      "summary": "Native macOS menu bar app for real-time AI coding-tool quota monitoring (Swift, zero dependencies).",
+      "bullets": [
+        "Built a zero-dependency native macOS menu bar app that monitors real-time usage quotas for AI coding tools (Claude Code, Codex CLI) directly from the status bar",
+        "Shipped 15 releases through a GitHub Actions CI/CD pipeline building universal Apple Silicon/Intel binaries with DMG installers and checksums, publishing to GitHub Releases and npm",
+        "Designed a protocol-based provider architecture decoupling detection, authentication, and data fetching, enabling new tool integrations through a single protocol with concurrent fetching and per-provider timeouts",
+        "Implemented a multi-tier credential resolution chain (file-based, silent Keychain, manual fallback) that avoids macOS permission prompts, with caching and legacy key migration"
+      ]
+    }
+  ],
+
+  "skills": {
+    "languages": ["TypeScript", "JavaScript", "Java", "Python", "SQL", "Swift", "PHP"],
+    "frontend": ["React", "Next.js", "Redux", "Redux Saga", "Tailwind CSS", "HTML5", "CSS3", "Sass"],
+    "backend_databases": ["Node.js", "Express", "FastAPI", "Spring Boot", "REST APIs", "WebSocket", "JWT", "PostgreSQL", "MongoDB", "Firestore"],
+    "tools_platforms": ["Docker", "Git", "GitHub Actions", "CI/CD", "AWS", "GCP", "Vercel", "Supabase", "Playwright", "Vitest", "Figma", "Claude Code", "n8n"]
+  },
+
+  "education": {
+    "school": "Algonquin College of Applied Arts and Technology",
+    "program": "Web Development and Internet Applications",
+    "location": "Ottawa, ON",
+    "dates": "Apr 2025"
+  }
+}
