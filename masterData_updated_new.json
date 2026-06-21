@@ -17,7 +17,7 @@
       "bullets": [
         "Reduced filter response time from 2s to under 500ms on 1M+ record datasets by restructuring client-side filtering into a batched apply flow",
         "Increased arbitrage accuracy to 95% across ROI, fees, and sales-velocity estimates by integrating Amazon SP-API and Keepa API with custom profit calculations",
-        "Built a responsive UI layer over a backend pipeline that filters 800M+ products monthly to 1M eligible results, keeping large datasets fluid with Redux-Saga, debounced search, pagination, and indexed Firestore queries",
+        "Reduced backend requests by 40% while keeping 700k records responsive by optimizing data-heavy UI workflows with Redux-Saga, debounced search, pagination, and indexed Firestore queries",
         "Built a responsive UI layer over a backend pipeline that filters 800M+ products monthly down to 1M eligible results, keeping large datasets fluid under heavy filtering and sorting",
         "Eliminated multi-second page transitions by adding deterministic prefetching of adjacent result pages, cutting pagination waits from 1.5s to near-instant navigation",
         "Accelerated feature delivery by integrating AI-assisted development tools (Claude Code, Cursor) into the daily workflow for scaffolding, refactoring, and test generation"
