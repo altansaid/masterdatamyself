@@ -62,17 +62,6 @@
         "Implemented JWT authentication with Spring Security and role-based access control separating user flows from admin dashboards while keeping session joins lightweight",
         "Deployed Dockerized services to a production cloud environment with custom domain hosting and uptime monitoring, sustaining consistent usage from medical graduates"
       ]
-    },
-    {
-      "name": "QDock",
-      "url": "https://github.com/altansaid/QDock",
-      "summary": "Native macOS menu bar app for real-time AI coding-tool quota monitoring (Swift, zero dependencies).",
-      "bullets": [
-        "Built a zero-dependency native macOS menu bar app that monitors real-time usage quotas for AI coding tools (Claude Code, Codex CLI) directly from the status bar",
-        "Shipped 15 releases through a GitHub Actions CI/CD pipeline building universal Apple Silicon/Intel binaries with DMG installers and checksums, publishing to GitHub Releases and npm",
-        "Designed a protocol-based provider architecture decoupling detection, authentication, and data fetching, enabling new tool integrations through a single protocol with concurrent fetching and per-provider timeouts",
-        "Implemented a multi-tier credential resolution chain (file-based, silent Keychain, manual fallback) that avoids macOS permission prompts, with caching and legacy key migration"
-      ]
     }
   ],
 
